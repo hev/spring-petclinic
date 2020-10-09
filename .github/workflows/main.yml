@@ -32,7 +32,7 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           
- - name: Scan image
+ name: Scan image
    uses: anchore/scan-action@v2
    with:
      image: "localbuild/testimage:latest"
